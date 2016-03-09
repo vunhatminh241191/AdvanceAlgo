@@ -6,7 +6,7 @@ import org.apache.commons.lang3.time.StopWatch;
 
 public class main
 {
-	public static Random random = new Random("YuZhang".hashCode());
+	public static Random random = new Random("Q1".hashCode());
 
 	// Graph has V, E
 	public static int DSaturAlgoritm(Graph graph)  // Total: O((V+E)LogV) // Total: O(V^2+ELogV) // Total: O(VC + (V+E)LogV)
